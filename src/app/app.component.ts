@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lesson-box-app',
   template: `
     <app-header></app-header>
-    <dashboard></dashboard>
+    <router-outlet></router-outlet>
   `,
 })
 export class AppComponent  {}
