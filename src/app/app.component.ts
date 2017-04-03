@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  selector: 'lesson-box-app',
+  template: `<h1>{{name}}</h1>`,
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  { name = 'Lesson Box'; }
