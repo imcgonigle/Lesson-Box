@@ -3,9 +3,20 @@ header {
     padding: 1rem 2rem 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #ccf;
 }
 
 header h1 {
     font-weight: lighter;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul>li {
+    padding: 0rem 1rem;
+    list-style: none;
 }
