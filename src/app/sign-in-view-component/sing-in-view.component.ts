@@ -10,6 +10,7 @@ export class SignInViewComponent {
   constructor(private router: Router){}
 
   signIn(): void{
+    // TODO: Implement real user authentication
     this.router.navigate(['/dashboard'])
   }
 }
