@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'lesson-box-app',
   template: `
-    <h1>{{name}}</h1>
+    <app-header></app-header>
     <dashboard></dashboard>
   `,
 })
-export class AppComponent  { name = 'Lesson Box'; }
+export class AppComponent  {}
