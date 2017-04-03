@@ -6,6 +6,7 @@ import {AppRoutingModule } from './app-routing-module/app-routing.module';
 import { AppComponent }  from './app.component';
 import { HeaderComponent } from './header-component/header.component';
 import { DashboardComponent } from './dashboard-component/dashboard.component';
+import { SignInViewComponent } from './sign-in-view-component/sing-in-view.component';
 
 @NgModule({
   imports:      [ 
@@ -15,7 +16,8 @@ import { DashboardComponent } from './dashboard-component/dashboard.component';
   declarations: [ 
     AppComponent,
     HeaderComponent,
-    DashboardComponent
+    DashboardComponent,
+    SignInViewComponent
   ],
   bootstrap:    [ AppComponent ]
 })
